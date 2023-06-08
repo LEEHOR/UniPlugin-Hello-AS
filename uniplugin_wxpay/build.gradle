@@ -1,0 +1,53 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion '29.0.2'
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        manifestPlaceholders = [
+                "wxappid": "935b3f5d48c4c33dbae83f7c49c89796",
+                "originalmpid":"gh_e64a1a89a0ad"
+        ]
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            zipAlignEnabled true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            zipAlignEnabled true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    compileOnly fileTree(dir: '../app/libs', include: ['uniapp-v8-release.aar'])
+//    implementation 'androidx.appcompat:appcompat:1.2.0'
+    // 微信sdk
+    api 'com.tencent.mm.opensdk:wechat-sdk-android:+'
+    implementation 'com.alibaba:fastjson:1.2.83'
+}

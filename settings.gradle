@@ -1,0 +1,7 @@
+include ':app'
+//include ':uniplugin_module'
+//include ':uniplugin_component'
+//include ':uniplugin_richalert'
+include ':uniplugin_beLocation'
+//include ':uniplugin_mqtt'
+include ':uniplugin_wxpay'

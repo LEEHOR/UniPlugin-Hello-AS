@@ -1,0 +1,31 @@
+{
+  "nativePlugins": [
+    {
+      "plugins": [
+        {
+          "type": "module",
+          "name": "leehor-wxmppay",
+          "class": "com.weilun.uniplugin_wxpay.WxPayModule"
+        }
+      ]
+    },
+    {
+      "plugins": [
+        {
+          "type": "module",
+          "name": "leehor-gaode-location",
+          "class": "com.weilun.uniplugin_beLocation.GaoDeLocationModule"
+        }
+      ]
+    },
+    {
+      "plugins": [
+        {
+          "type": "component",
+          "name": "leehor-gaode-amap",
+          "class": "com.weilun.uniplugin_beLocation.AmapViewModule"
+        }
+      ]
+    }
+  ]
+}
