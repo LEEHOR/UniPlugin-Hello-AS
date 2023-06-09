@@ -86,10 +86,10 @@ public class WxPayModule extends UniModule {
             //随机字符串
             params.put("randomstr", SybUtil.getValidatecode(8));
             params.put("paytype", "W06");
-            String payStr = SybUtil.strAppend(params);
-            String sign = SybUtil.unionSign(params, sybrsa, "SM2");
-//            params.put("sign", );
-            toPay(payStr, sign, wxsdk_appid, original_mpid);
+//            params.put("signtype", "MD5");
+            String sign = SybUtil.unionSign(params, sybrsa, "MD5");
+            params.put("sign", sign);
+            toPay(SybUtil.strAppend(params), sign, wxsdk_appid, original_mpid);
         } catch (Exception e) {
             Log.e(TAG, "toWxPay: " + e.getMessage());
         }
@@ -97,10 +97,10 @@ public class WxPayModule extends UniModule {
     }
 
     private void toPay(String payStr, String sign, String wxsdk_appid, String original_mpid) {
-        String payParms = payStr + "&sign=" + sign;
-        String path = "pages/orderDetail/orderDetail?" + payParms;
+        String payParms = payStr;
+        String path = "pages/orderDetail/orderDetail";
         IWXAPI api = WXAPIFactory.createWXAPI(mUniSDKInstance.getContext(), wxsdk_appid);
-        api.registerApp(wxsdk_appid);
+//        api.registerApp(wxsdk_appid);
         WXLaunchMiniProgram.Req req = new WXLaunchMiniProgram.Req();
         req.userName = original_mpid; // 填小程序原始id
         req.path = path; ////拉起小程序页面的可带参路径，不填默认拉起小程序首页，对于小游戏，可以只传入 query 部分，来实现传参效果，如：传入 "?foo=bar"。

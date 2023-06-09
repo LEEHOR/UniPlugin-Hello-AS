@@ -152,10 +152,7 @@ public class SybUtil {
 			throw e;
 		}
 	}
-	public static String unionSign(TreeMap<String, String> params,String appkey,
-			String signType) throws Exception {
-		// TODO Auto-generated method stub
-
+	public static String unionSign(TreeMap<String, String> params,String appkey, String signType) throws Exception {
 		params.remove("sign");
 		if ("MD5".equals(signType)) {// 如果是md5则需要把md5的key加入到排序
 			params.put("key", appkey);
@@ -163,8 +160,7 @@ public class SybUtil {
 		StringBuilder sb = new StringBuilder();
 		for (Map.Entry<String, String> entry : params.entrySet()) {
 			if (entry.getValue() != null && entry.getValue().length() > 0) {
-				sb.append(entry.getKey()).append("=").append(entry.getValue())
-						.append("&");
+				sb.append(entry.getKey()).append("=").append(entry.getValue()).append("&");
 			}
 		}
 		if (sb.length() > 0) {
@@ -191,8 +187,6 @@ public class SybUtil {
 	 * @return
 	 */
 	public static String strAppend(TreeMap<String, String> params){
-		if (params.containsKey("sign"))//签名明文组装不包含sign字段
-			params.remove("sign");
 		StringBuilder sb = new StringBuilder();
 		for (Map.Entry<String, String> entry : params.entrySet()) {
 			if (entry.getValue() != null && entry.getValue().length() > 0) {

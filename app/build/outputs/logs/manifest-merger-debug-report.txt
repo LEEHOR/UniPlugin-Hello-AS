@@ -597,9 +597,9 @@ ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\
 	android:name
 		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-76
 meta-data#wxsdk_appid
-ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-25:64
+ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-25:50
 	android:value
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-61
+		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-47
 	android:name
 		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-39
 meta-data#original_mpid
@@ -621,9 +621,9 @@ ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\
 	android:name
 		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:13-37
 meta-data#syb_rsa
-ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:9-41:876
+ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:9-41:40
 	android:value
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-873
+		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-37
 	android:name
 		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-35
 meta-data#call_back_url

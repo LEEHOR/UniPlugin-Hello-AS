@@ -17,7 +17,7 @@
         <meta-data android:name="original_mpid" android:value="${originalmpid}"/>
         <!--商户id-->
         <meta-data android:name="syb_cusid" android:value="${sybcusid}"/>
-        <!--appid-->
+        <!--appid 前面拼接一个a字符，防止出现纯数字解析出错-->
         <meta-data android:name="syb_appid" android:value="${sybappid}"/>
         <!--交易密钥-->
         <meta-data android:name="syb_rsa" android:value="${sybrsa}"/>
