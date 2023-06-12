@@ -13,6 +13,15 @@
       "plugins": [
         {
           "type": "module",
+          "name": "leehor-alisdk-alipay",
+          "class": "com.weilun.uniplugin_wxpay.AliPayModule"
+        }
+      ]
+    },
+    {
+      "plugins": [
+        {
+          "type": "module",
           "name": "leehor-gaode-location",
           "class": "com.weilun.uniplugin_beLocation.GaoDeLocationModule"
         }

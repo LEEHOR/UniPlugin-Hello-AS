@@ -37,6 +37,15 @@
 
             <category android:name="android.intent.category.DEFAULT" />
         </intent>
+        <intent> <!-- H5 支持手淘登录 -->
+            <action android:name="*" />
+
+            <data android:scheme="tbopen" />
+        </intent>
+
+        <package android:name="com.eg.android.AlipayGphone" /> <!-- 支付宝 app -->
+        <package android:name="com.eg.android.AlipayGphoneRC" /> <!-- 沙箱支付宝 app -->
+        <package android:name="hk.alipay.wallet" />
     </queries>
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -50,6 +59,7 @@
     <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" /> <!-- 如果设置了target >= 28 如果需要启动后台定位则必须声明这个权限 -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- 如果您的应用需要后台定位权限，且有可能运行在Android Q设备上,并且设置了target>28，必须增加这个权限声明 -->
     <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
 
     <application
         android:name="io.dcloud.application.DCloudApplication"
@@ -231,14 +241,45 @@
         <activity
             android:name="com.weilun.uniplugin_wxpay.wxapi.WXEntryActivity"
             android:exported="true"
+            android:launchMode="singleTask"
+            android:taskAffinity="uni.UNI1E05D94"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <activity-alias
+            android:name="uni.UNI1E05D94.wxapi.WXEntryActivity"
+            android:exported="true"
+            android:targetActivity="com.weilun.uniplugin_wxpay.wxapi.WXEntryActivity" />
+
+        <activity
+            android:name="com.weilun.uniplugin_wxpay.wxapi.AliPayActivity"
+            android:exported="true"
             android:label="@string/app_name"
             android:launchMode="singleTask"
-            android:taskAffinity="net.sourceforge.simcpux"
             android:theme="@android:style/Theme.Light.NoTitleBar" >
-        </activity> <!-- 填移动应用(App)的 AppId -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="sdk"
+                    android:path="/backfromalipay"
+                    android:scheme="leehorallinpaysdk" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name="com.weilun.uniplugin_wxpay.receiver.ScanCodeBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="action_pay_bre" />
+            </intent-filter>
+        </receiver> <!-- 填移动应用(App)的 AppId -->
         <meta-data
             android:name="wxsdk_appid"
-            android:value="wx5db97346d760d2cd" /> <!-- 支付平台小程序原始ID -->
+            android:value="wxd2b6b1c1530ba9fa" /> <!-- 支付平台小程序原始ID -->
         <meta-data
             android:name="original_mpid"
             android:value="gh_e64a1a89a0ad" /> <!-- 商户id -->
@@ -253,7 +294,54 @@
             android:value="lw688688" /> <!-- 回调地址 -->
         <meta-data
             android:name="call_back_url"
-            android:value="http://www.hffjlt.com/fj/m/NotifyServlet" />
+            android:value="http://www.hffjlt.com/fj/m/NotifyServlet" /> <!-- 支付宝appid 前面拼接一个a字符，防止出现纯数字解析出错 -->
+        <meta-data
+            android:name="ali_appid"
+            android:value="a2021001104615521" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize|locale|keyboard|screenLayout|density|fontScale|layoutDirection|smallestScreenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.H5AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize|locale|keyboard|screenLayout|density|fontScale|layoutDirection|smallestScreenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.PayResultActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize|locale|keyboard|screenLayout|density|fontScale|layoutDirection|smallestScreenSize"
+            android:exported="true"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.AlipayResultActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize|locale|keyboard|screenLayout|density|fontScale|layoutDirection|smallestScreenSize"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.H5OpenAuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize|locale|keyboard|screenLayout|density|fontScale|layoutDirection|smallestScreenSize"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.APayEntranceActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize|locale|keyboard|screenLayout|density|fontScale|layoutDirection|smallestScreenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
     </application>
 
 </manifest>

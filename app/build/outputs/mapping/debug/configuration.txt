@@ -264,10 +264,18 @@
 # End of content from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\proguard-rules.pro
 # The proguard configuration file for the following section is D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\build\intermediates\aapt_proguard_file\debug\aapt_rules.txt
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class com.alipay.sdk.app.APayEntranceActivity { <init>(); }
+-keep class com.alipay.sdk.app.AlipayResultActivity { <init>(); }
+-keep class com.alipay.sdk.app.H5AuthActivity { <init>(); }
+-keep class com.alipay.sdk.app.H5OpenAuthActivity { <init>(); }
+-keep class com.alipay.sdk.app.H5PayActivity { <init>(); }
+-keep class com.alipay.sdk.app.PayResultActivity { <init>(); }
 -keep class com.amap.api.location.APSService { <init>(); }
 -keep class com.dmcbig.mediapicker.PickerActivity { <init>(); }
 -keep class com.dmcbig.mediapicker.PreviewActivity { <init>(); }
 -keep class com.taobao.weex.WXGlobalEventReceiver { <init>(); }
+-keep class com.weilun.uniplugin_wxpay.receiver.ScanCodeBroadcastReceiver { <init>(); }
+-keep class com.weilun.uniplugin_wxpay.wxapi.AliPayActivity { <init>(); }
 -keep class com.weilun.uniplugin_wxpay.wxapi.WXEntryActivity { <init>(); }
 -keep class io.dcloud.PandoraEntry { <init>(); }
 -keep class io.dcloud.PandoraEntryActivity { <init>(); }
@@ -641,6 +649,40 @@
     *;
 }
 # End of content from C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\5c3debc348b2443a3c2d5d33fe5219ae\jetified-wechat-sdk-android-6.8.24\proguard.txt
+# The proguard configuration file for the following section is C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\proguard.txt
+# 这个 ProGuard 文件被指定为 consumerProguardFiles。
+# 如此一来，AAR 包的使用者在其应用进行 ProGuard 混淆时，将自动附加下列规则，
+# 省去了接入 JAR 时手动在 ProGuard 规则文件中加入支付宝 SDK 规则的步骤。
+
+-keep class com.alipay.android.app.IAlixPay{*;}
+-keep class com.alipay.android.app.IAlixPay$Stub{*;}
+-keep class com.alipay.android.app.IRemoteServiceCallback{*;}
+-keep class com.alipay.android.app.IRemoteServiceCallback$Stub{*;}
+-keep class com.alipay.sdk.app.PayTask{ public *;}
+-keep class com.alipay.sdk.app.AuthTask{ public *;}
+-keep class com.alipay.sdk.app.H5PayCallback {
+    <fields>;
+    <methods>;
+}
+-keep class com.alipay.android.phone.mrpc.core.** { *; }
+-keep class com.alipay.apmobilesecuritysdk.** { *; }
+-keep class com.alipay.mobile.framework.service.annotation.** { *; }
+-keep class com.alipay.mobilesecuritysdk.face.** { *; }
+-keep class com.alipay.tscenter.biz.rpc.** { *; }
+-keep class org.json.alipay.** { *; }
+-keep class com.alipay.tscenter.** { *; }
+-keep class com.ta.utdid2.** { *;}
+-keep class com.ut.device.** { *;}
+
+-dontwarn com.ta.utdid2.**
+-dontwarn com.ut.device.**
+
+-dontwarn com.alipay.mobilesecuritysdk.**
+-dontwarn com.alipay.security.**
+
+-dontwarn android.net.SSLCertificateSocketFactory
+
+# End of content from C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\proguard.txt
 # The proguard configuration file for the following section is <unknown>
 -ignorewarnings
 # End of content from <unknown>

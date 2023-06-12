@@ -198,6 +198,7 @@ public class SybUtil {
 		}
 		return sb.toString();
 	}
+
 	public static String rsaSign(String content, String privateKey,
 			String charset) throws Exception {
 		PrivateKey priKey = getPrivateKeyFromPKCS8("RSA",
