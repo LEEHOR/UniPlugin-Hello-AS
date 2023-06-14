@@ -268,7 +268,8 @@
 -keep class com.dmcbig.mediapicker.PickerActivity { <init>(); }
 -keep class com.dmcbig.mediapicker.PreviewActivity { <init>(); }
 -keep class com.taobao.weex.WXGlobalEventReceiver { <init>(); }
--keep class com.weilun.uniplugin_pay.receiver.ScanCodeBroadcastReceiver { <init>(); }
+-keep class com.weilun.uniplugin_pay.receiver.AliPayBroadcastReceiver { <init>(); }
+-keep class com.weilun.uniplugin_pay.receiver.WxPayBroadcastReceiver { <init>(); }
 -keep class com.weilun.uniplugin_pay.wxapi.AliPayActivity { <init>(); }
 -keep class com.weilun.uniplugin_pay.wxapi.WXEntryActivity { <init>(); }
 -keep class io.dcloud.PandoraEntry { <init>(); }

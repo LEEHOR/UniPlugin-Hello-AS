@@ -10,7 +10,8 @@ import android.util.Log;
 import com.alibaba.fastjson.JSONObject;
 import com.taobao.weex.annotation.JSMethod;
 import com.taobao.weex.bridge.JSCallback;
-import com.weilun.uniplugin_pay.receiver.ScanCodeBroadcastReceiver;
+import com.weilun.uniplugin_pay.listen.PayListener;
+import com.weilun.uniplugin_pay.receiver.AliPayBroadcastReceiver;
 import com.weilun.uniplugin_pay.utils.Constant;
 import com.weilun.uniplugin_pay.utils.SybUtil;
 
@@ -29,9 +30,9 @@ import io.dcloud.feature.uniapp.common.UniModule;
  * @description: TODO
  * @date 2023/6/8 11:55
  */
-public class AliPayModule extends UniModule implements ScanCodeBroadcastReceiver.OnReceiveCode {
+public class AliPayModule extends UniModule{
     private static String TAG = "weilun.WxPayModule";
-    private ScanCodeBroadcastReceiver scanCodeBroadcastReceiver;
+    private AliPayBroadcastReceiver aliPayBroadcastReceiver;
 
     /*
      * String json = "{" +
@@ -57,6 +58,7 @@ public class AliPayModule extends UniModule implements ScanCodeBroadcastReceiver
                      + "&query=" + query;*/
     @JSMethod(uiThread = false)
     public void startPay(JSONObject options, JSCallback jsCallback) throws ParseException {
+        Constant.mAliUniSDKInstances=mUniSDKInstance;
         registerReceiver();
         JSONObject result = new JSONObject();
         if (options == null) {
@@ -145,17 +147,15 @@ public class AliPayModule extends UniModule implements ScanCodeBroadcastReceiver
     }
 
     private void registerReceiver() {
-        scanCodeBroadcastReceiver = new ScanCodeBroadcastReceiver();
+        aliPayBroadcastReceiver = new AliPayBroadcastReceiver();
         IntentFilter intentFilter = new IntentFilter();
-        intentFilter.addAction(Constant.ACTION_PAY_BRE);
-        mUniSDKInstance.getContext().registerReceiver(scanCodeBroadcastReceiver, intentFilter);
-        scanCodeBroadcastReceiver.setOnReceive(this::scanCode);
+        intentFilter.addAction(Constant.ACTION_PAY_ALI);
+        mUniSDKInstance.getContext().registerReceiver(aliPayBroadcastReceiver, intentFilter);
     }
 
     @Override
     public void onActivityCreate() {
         super.onActivityCreate();
-
     }
 
     @Override
@@ -168,19 +168,12 @@ public class AliPayModule extends UniModule implements ScanCodeBroadcastReceiver
      * 取消注册红外广播
      */
     private void unRegisterReceiver() {
-        if (scanCodeBroadcastReceiver != null) {
-            mUniSDKInstance.getContext().unregisterReceiver(scanCodeBroadcastReceiver);
+        if (aliPayBroadcastReceiver != null) {
+            mUniSDKInstance.getContext().unregisterReceiver(aliPayBroadcastReceiver);
         }
-        scanCodeBroadcastReceiver = null;
-    }
-
-    @Override
-    public void scanCode(String code, String errmsg, boolean success) {
-        Log.e("TAG", "code===" + code + ";errmsg===" + errmsg + ";success===" + success);
-        Map<String, Object> params = new HashMap<>();
-        params.put("success", success);
-        params.put("code", code);
-        params.put("errmsg", errmsg);
-        mUniSDKInstance.fireGlobalEventCallback("allinPay", params);
+        aliPayBroadcastReceiver = null;
     }
 }
+
+
+

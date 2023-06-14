@@ -15,7 +15,8 @@ import com.tencent.mm.opensdk.modelbiz.WXLaunchMiniProgram;
 import com.tencent.mm.opensdk.openapi.IWXAPI;
 import com.tencent.mm.opensdk.openapi.IWXAPIEventHandler;
 import com.tencent.mm.opensdk.openapi.WXAPIFactory;
-import com.weilun.uniplugin_pay.receiver.ScanCodeBroadcastReceiver;
+import com.weilun.uniplugin_pay.WxPayModule;
+import com.weilun.uniplugin_pay.receiver.WxPayBroadcastReceiver;
 import com.weilun.uniplugin_pay.utils.Constant;
 
 public class WXEntryActivity extends Activity implements IWXAPIEventHandler {
@@ -57,11 +58,14 @@ public class WXEntryActivity extends Activity implements IWXAPIEventHandler {
             WXLaunchMiniProgram.Resp launchMiniProResp = (WXLaunchMiniProgram.Resp) resp;
             String extMsg = launchMiniProResp.extMsg; //对应小程序组件 <button open-type="launchApp"> 中的 app-parameter 属性
             int errCode = launchMiniProResp.errCode;
-            Intent intentSend = new Intent(Constant.ACTION_PAY_BRE);
-            intentSend.putExtra("code", errCode);
-            intentSend.putExtra("success", errCode==0);
+            //success：支付成功
+            //code 响应码   success：支付成功; cancel：取消支付; fail：支付失败
+            //extMsg 响应内容  success：支付成功;cancel：取消支付;其他：支付失败，内容为失败原因
+            Intent intentSend = new Intent(Constant.ACTION_PAY_WX);
+            intentSend.putExtra("code", String.valueOf(errCode));
+            intentSend.putExtra("success", extMsg.contains("success"));
             intentSend.putExtra("errmsg", extMsg);
-            intentSend.setComponent(new ComponentName(this, ScanCodeBroadcastReceiver.class));
+            intentSend.setComponent(new ComponentName(this, WxPayBroadcastReceiver.class));
             sendBroadcast(intentSend);
         }
         finish();

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.weilun.uniplugin_pay">
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
@@ -32,9 +33,9 @@
                     android:scheme="leehorallinpaysdk" />
             </intent-filter>
         </activity>
-            <receiver android:name="com.weilun.uniplugin_pay.receiver.ScanCodeBroadcastReceiver"
-                android:enabled="true"
-                android:exported="true">
-            </receiver>
-        </application>
+        <receiver android:name="com.weilun.uniplugin_pay.receiver.WxPayBroadcastReceiver"
+            tools:ignore="Instantiatable" />
+        <receiver android:name="com.weilun.uniplugin_pay.receiver.AliPayBroadcastReceiver"
+            tools:ignore="Instantiatable" />
+    </application>
 </manifest>

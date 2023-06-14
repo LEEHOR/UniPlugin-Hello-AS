@@ -79,7 +79,7 @@ MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\李浩\.gradle\cac
 MERGED from [com.facebook.fresco:fresco:1.13.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\3d0d081e1147555bbeaa840a757f6013\jetified-fresco-1.13.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:animated-gif:1.13.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\eefc3eac1932c86fb5dd86807d004e9a\jetified-animated-gif-1.13.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\88203784b4902c4b0a3523092c014d02\jetified-glide-4.9.0\AndroidManifest.xml:2:1-12:12
-MERGED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-54:12
+MERGED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-56:12
 MERGED from [androidx.webkit:webkit:1.3.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\8b45492b1bedb5d0c63e879e1653bfce\webkit-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.media:media:1.0.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\b52031778c3730d2e5cb2a6c88a2a2c6\media-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\3db056b7b2a67d9700cd1094de7f7779\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -162,8 +162,8 @@ MERGED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_202
 MERGED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_beLocation\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:5-40:19
 MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\88203784b4902c4b0a3523092c014d02\jetified-glide-4.9.0\AndroidManifest.xml:10:5-20
 MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\88203784b4902c4b0a3523092c014d02\jetified-glide-4.9.0\AndroidManifest.xml:10:5-20
-MERGED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-52:19
-MERGED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-52:19
+MERGED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-54:19
+MERGED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-54:19
 MERGED from [androidx.core:core:1.3.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\817a61a686dfd849f92445d1d98580bd\core-1.3.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.3.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\817a61a686dfd849f92445d1d98580bd\core-1.3.0\AndroidManifest.xml:24:5-89
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\61f123e316a3191fa25e87c26759e949\jetified-gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
@@ -294,8 +294,8 @@ MERGED from [com.facebook.fresco:animated-gif:1.13.0] C:\Users\李浩\.gradle\cach
 MERGED from [com.facebook.fresco:animated-gif:1.13.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\eefc3eac1932c86fb5dd86807d004e9a\jetified-animated-gif-1.13.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\88203784b4902c4b0a3523092c014d02\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\88203784b4902c4b0a3523092c014d02\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
-MERGED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
 MERGED from [androidx.webkit:webkit:1.3.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\8b45492b1bedb5d0c63e879e1653bfce\webkit-1.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.webkit:webkit:1.3.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\8b45492b1bedb5d0c63e879e1653bfce\webkit-1.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.media:media:1.0.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\b52031778c3730d2e5cb2a6c88a2a2c6\media-1.0.0\AndroidManifest.xml:20:5-44
@@ -394,8 +394,8 @@ uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:14:5-81
 MERGED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_beLocation\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:5-81
 MERGED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_beLocation\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:5-81
-MERGED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
-MERGED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
+MERGED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-81
+MERGED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-81
 	android:name
 		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:14:22-78
 uses-permission#android.permission.READ_MEDIA_IMAGES
@@ -410,8 +410,8 @@ uses-permission#android.permission.INTERNET
 ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:19:5-67
 MERGED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_beLocation\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:5-67
 MERGED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_beLocation\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:5-67
-MERGED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
-MERGED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
+MERGED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
+MERGED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
 	android:name
 		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:19:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
@@ -635,56 +635,60 @@ ADDED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_2023
 	android:name
 		ADDED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_beLocation\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:13-60
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-80
+ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-80
 	android:name
-		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-77
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-77
 activity#com.weilun.uniplugin_pay.wxapi.WXEntryActivity
-ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-21:75
+ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-22:75
 	android:launchMode
-		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-44
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-44
 	android:exported
-		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-36
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-36
 	android:theme
-		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-72
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-72
 	android:taskAffinity
-		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-52
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-52
 	android:name
-		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-74
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-74
 activity-alias#${applicationId}.wxapi.WXEntryActivity
-ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-26:87
+ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:9-27:87
 	android:exported
-		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-36
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-36
 	android:targetActivity
-		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-84
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-84
 	android:name
-		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-66
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-66
 activity-alias#uni.UNI1E05D94.wxapi.WXEntryActivity
-ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-26:87
+ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:9-27:87
 	android:exported
-		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-36
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-36
 	android:targetActivity
-		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-84
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-84
 	android:name
-		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-66
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-66
 activity#com.weilun.uniplugin_pay.wxapi.AliPayActivity
-ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:9-45:20
+ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:9-46:20
 	android:label
-		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-45
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:13-45
 	android:launchMode
-		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:13-44
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-44
 	android:exported
-		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-36
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-36
 	android:theme
-		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-66
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-66
 	android:name
-		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-73
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-73
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:sdk+data:path:/backfromalipay+data:scheme:leehorallinpaysdk
-ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-44:29
-receiver#com.weilun.uniplugin_pay.receiver.ScanCodeBroadcastReceiver
-ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:9-51:20
-	android:enabled
-		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:13-35
-	android:exported
-		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:13-36
+ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-45:29
+receiver#com.weilun.uniplugin_pay.receiver.WxPayBroadcastReceiver
+ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:9-50:45
+	tools:ignore
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:13-42
 	android:name
-		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:13-87
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:13-84
+receiver#com.weilun.uniplugin_pay.receiver.AliPayBroadcastReceiver
+ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:9-53:45
+	tools:ignore
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:13-42
+	android:name
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:13-85

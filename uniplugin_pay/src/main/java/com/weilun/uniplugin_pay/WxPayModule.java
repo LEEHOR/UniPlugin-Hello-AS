@@ -11,7 +11,8 @@ import com.taobao.weex.bridge.JSCallback;
 import com.tencent.mm.opensdk.modelbiz.WXLaunchMiniProgram;
 import com.tencent.mm.opensdk.openapi.IWXAPI;
 import com.tencent.mm.opensdk.openapi.WXAPIFactory;
-import com.weilun.uniplugin_pay.receiver.ScanCodeBroadcastReceiver;
+import com.weilun.uniplugin_pay.listen.PayListener;
+import com.weilun.uniplugin_pay.receiver.WxPayBroadcastReceiver;
 import com.weilun.uniplugin_pay.utils.Constant;
 import com.weilun.uniplugin_pay.utils.SybUtil;
 
@@ -28,9 +29,9 @@ import io.dcloud.feature.uniapp.common.UniModule;
  * @description: TODO
  * @date 2023/6/8 11:55
  */
-public class WxPayModule extends UniModule implements ScanCodeBroadcastReceiver.OnReceiveCode {
+public class WxPayModule extends UniModule {
     private static String TAG = "weilun.WxPayModule";
-    private ScanCodeBroadcastReceiver scanCodeBroadcastReceiver;
+    private WxPayBroadcastReceiver wxPayBroadcastReceiver;
 
 
 
@@ -44,6 +45,7 @@ public class WxPayModule extends UniModule implements ScanCodeBroadcastReceiver.
 //api.sendReq(req);
     @JSMethod(uiThread = false)
     public void startPay(JSONObject options, JSCallback jsCallback) throws ParseException {
+        Constant.mWxiUniSDKInstances=mWXSDKInstance;
         registerReceiver();
         JSONObject result = new JSONObject();
         if (options == null) {
@@ -127,11 +129,10 @@ public class WxPayModule extends UniModule implements ScanCodeBroadcastReceiver.
     }
 
     private void registerReceiver() {
-        scanCodeBroadcastReceiver = new ScanCodeBroadcastReceiver();
+        wxPayBroadcastReceiver = new WxPayBroadcastReceiver();
         IntentFilter intentFilter = new IntentFilter();
-        intentFilter.addAction(Constant.ACTION_PAY_BRE);
-        mUniSDKInstance.getContext().registerReceiver(scanCodeBroadcastReceiver, intentFilter);
-        scanCodeBroadcastReceiver.setOnReceive(this::scanCode);
+        intentFilter.addAction(Constant.ACTION_PAY_WX);
+        mUniSDKInstance.getContext().registerReceiver(wxPayBroadcastReceiver, intentFilter);
     }
 
     @Override
@@ -150,18 +151,24 @@ public class WxPayModule extends UniModule implements ScanCodeBroadcastReceiver.
      * 取消注册红外广播
      */
     private void unRegisterReceiver() {
-        if (scanCodeBroadcastReceiver != null) {
-            mUniSDKInstance.getContext().unregisterReceiver(scanCodeBroadcastReceiver);
+        if (wxPayBroadcastReceiver != null) {
+            mUniSDKInstance.getContext().unregisterReceiver(wxPayBroadcastReceiver);
         }
-        scanCodeBroadcastReceiver = null;
+        wxPayBroadcastReceiver = null;
     }
-    @Override
-    public void scanCode(String code, String errmsg, boolean success) {
-        Log.e("TAG", "code===" + code + ";errmsg===" + errmsg + ";success===" + success);
-        Map<String, Object> params = new HashMap<>();
-        params.put("success", success);
-        params.put("code", code);
-        params.put("errmsg", errmsg);
-        mUniSDKInstance.fireGlobalEventCallback("allinPayEvent", params);
-    }
+//    public class WxPayBroadcastReceiver extends BroadcastReceiver {
+//
+//        @Override
+//        public void onReceive(Context context, Intent intent) {
+//            String code = intent.getStringExtra("code");
+//            String errmsg = intent.getStringExtra("errmsg");
+//            boolean success = intent.getBooleanExtra("success", false);
+//            Log.e("TAG", "code===" + code + ";errmsg===" + errmsg + ";success===" + success);
+//            Map<String, Object> params = new HashMap<>();
+//            params.put("success", success);
+//            params.put("code", code);
+//            params.put("errmsg", errmsg);
+//            mUniSDKInstance.fireGlobalEventCallback("allinPay", params);
+//        }
+//    }
 }

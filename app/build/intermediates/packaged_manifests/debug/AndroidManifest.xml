@@ -152,7 +152,7 @@
         <!-- 高德地图apikey -->
         <meta-data
             android:name="com.amap.api.v2.apikey"
-            android:value="5207df019d331a923ecc72824bb6e005" >
+            android:value="6e0bd8e7f4281798b6bd3c09098b554d" >
         </meta-data>
         <!--
         <activity
@@ -288,11 +288,8 @@
             </intent-filter>
         </activity>
 
-        <receiver
-            android:name="com.weilun.uniplugin_pay.receiver.ScanCodeBroadcastReceiver"
-            android:enabled="true"
-            android:exported="true" >
-        </receiver>
+        <receiver android:name="com.weilun.uniplugin_pay.receiver.WxPayBroadcastReceiver" />
+        <receiver android:name="com.weilun.uniplugin_pay.receiver.AliPayBroadcastReceiver" />
     </application>
 
 </manifest>
