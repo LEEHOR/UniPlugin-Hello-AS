@@ -4,8 +4,8 @@
       "plugins": [
         {
           "type": "module",
-          "name": "leehor-wxsdk-mppay",
-          "class": "com.weilun.uniplugin_wxpay.WxPayModule"
+          "name": "leehor-pay-wx",
+          "class": "com.weilun.uniplugin_pay.WxPayModule"
         }
       ]
     },
@@ -13,8 +13,8 @@
       "plugins": [
         {
           "type": "module",
-          "name": "leehor-alisdk-alipay",
-          "class": "com.weilun.uniplugin_wxpay.AliPayModule"
+          "name": "leehor-pay-ali",
+          "class": "com.weilun.uniplugin_pay.AliPayModule"
         }
       ]
     },

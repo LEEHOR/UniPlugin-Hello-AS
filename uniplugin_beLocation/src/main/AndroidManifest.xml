@@ -30,8 +30,6 @@
             android:foregroundServiceType="location"/>
 <!--        <meta-data android:name="com.amap.api.v2.apikey" android:value="${amapApikey}">-->
 <!--        </meta-data>-->
-        <meta-data android:name="com.amap.api.v2.apikey" android:value="${amapApikey}">
-        </meta-data>
     </application>
 
 </manifest>

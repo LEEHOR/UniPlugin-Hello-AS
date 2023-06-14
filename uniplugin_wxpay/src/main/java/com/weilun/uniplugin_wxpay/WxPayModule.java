@@ -46,6 +46,7 @@ public class WxPayModule extends UniModule implements ScanCodeBroadcastReceiver.
         if (options == null) {
             result.put("code", 500);
             result.put("msg", "支付参数不能为空");
+            jsCallback.invoke(result);
         } else {
             String trxamt = options.getString("trxamt");
             String body = options.getString("body");
@@ -53,11 +54,11 @@ public class WxPayModule extends UniModule implements ScanCodeBroadcastReceiver.
             if (trxamt == null) {
                 result.put("code", 500);
                 result.put("msg", "支付金额不能为空");
+                jsCallback.invoke(result);
             } else {
                 buildPayParam(trxamt, body, remark);
             }
         }
-        jsCallback.invoke(result);
     }
 
     private void buildPayParam(String trxamt, String body, String remark) {

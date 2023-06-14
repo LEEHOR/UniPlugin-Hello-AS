@@ -1,4 +1,5 @@
 net.lingala.zip4j.crypto.PBKDF2.MacBasedPRF:
+    public byte[] doFinal()
     public void update(byte[])
 bolts.CancellationTokenRegistration
 dc.squareup.okhttp3.internal.tls.DistinguishedNameParser
@@ -140,17 +141,18 @@ android.support.v4.media.session.MediaSessionCompatApi24$Callback
 net.lingala.zip4j.util.FileUtils:
     public void <init>()
     public static byte[] getFileAttributes(java.io.File)
-    public static java.util.List getFilesInDirectoryRecursive(java.io.File,boolean,boolean)
-    public static java.util.List getFilesInDirectoryRecursive(java.io.File,boolean,boolean,net.lingala.zip4j.model.ExcludeFileFilter)
+    public static java.util.List getFilesInDirectoryRecursive(java.io.File,net.lingala.zip4j.model.ZipParameters)
     public static java.lang.String getZipFileNameWithoutExtension(java.lang.String)
     public static java.lang.String getRelativeFileName(java.io.File,net.lingala.zip4j.model.ZipParameters)
     private static java.lang.String getNameOfFileInZip(java.io.File,java.lang.String)
     public static boolean isZipEntryDirectory(java.lang.String)
     public static void copyFile(java.io.RandomAccessFile,java.io.OutputStream,long,long,net.lingala.zip4j.progress.ProgressMonitor,int)
     public static void assertFilesExist(java.util.List,net.lingala.zip4j.model.ZipParameters$SymbolicLinkAction)
+    public static java.lang.String getNextNumberedSplitFileCounterAsExtension(int)
     public static boolean isSymbolicLink(java.io.File)
     public static java.lang.String readSymbolicLink(java.io.File)
     public static byte[] getDefaultFileAttributes(boolean)
+    private static java.lang.String getExtensionZerosPrefix(int)
     private static byte[] getWindowsFileAttributes(java.nio.file.Path)
     private static void assertFileExists(java.io.File)
     private static void assertSymbolicLinkTargetExists(java.io.File)
@@ -278,7 +280,6 @@ android.support.v4.media.MediaDescriptionCompatApi23$Builder:
 bolts.Task$2
 net.lingala.zip4j.io.inputstream.NumberedSplitRandomAccessFile:
     public void <init>(java.lang.String,java.lang.String)
-    public void <init>(java.io.File,java.lang.String)
 dc.squareup.okhttp3.internal.cache.DiskLruCache$Snapshot
 android.support.v4.media.MediaBrowserCompat$ServiceBinderWrapper:
     void removeSubscription(java.lang.String,android.os.IBinder,android.os.Messenger)
@@ -286,9 +287,6 @@ android.support.v4.media.MediaBrowserCompat$ServiceBinderWrapper:
     void search(java.lang.String,android.os.Bundle,android.support.v4.os.ResultReceiver,android.os.Messenger)
     void sendCustomAction(java.lang.String,android.os.Bundle,android.support.v4.os.ResultReceiver,android.os.Messenger)
 net.lingala.zip4j.crypto.PBKDF2.PBKDF2Engine:
-    public byte[] deriveKey(char[])
-    public boolean verifyKey(char[])
-    public net.lingala.zip4j.crypto.PBKDF2.PRF getPseudoRandomFunction()
     public net.lingala.zip4j.crypto.PBKDF2.PBKDF2Parameters getParameters()
     public void setParameters(net.lingala.zip4j.crypto.PBKDF2.PBKDF2Parameters)
     public void setPseudoRandomFunction(net.lingala.zip4j.crypto.PBKDF2.PRF)
@@ -683,6 +681,7 @@ android.support.v4.media.MediaBrowserCompat$MediaItem:
     public static final int FLAG_PLAYABLE
 dc.squareup.okio.ForwardingSink:
     public final dc.squareup.okio.Sink delegate()
+net.lingala.zip4j.tasks.AbstractModifyFileTask$1
 dc.squareup.okhttp3.ResponseBody$BomAwareReader
 net.lingala.zip4j.headers.HeaderWriter:
     private void updateFileSizesInLocalFileHeader(net.lingala.zip4j.io.outputstream.SplitOutputStream,net.lingala.zip4j.model.FileHeader)
@@ -859,9 +858,11 @@ net.lingala.zip4j.io.inputstream.ZipInputStream:
     public void <init>(java.io.InputStream)
     public void <init>(java.io.InputStream,java.nio.charset.Charset)
     public void <init>(java.io.InputStream,char[])
+    public void <init>(java.io.InputStream,net.lingala.zip4j.util.PasswordCallback)
     public void <init>(java.io.InputStream,char[],java.nio.charset.Charset)
+    public void <init>(java.io.InputStream,net.lingala.zip4j.util.PasswordCallback,java.nio.charset.Charset)
+    public void <init>(java.io.InputStream,net.lingala.zip4j.util.PasswordCallback,net.lingala.zip4j.model.Zip4jConfig)
     public net.lingala.zip4j.model.LocalFileHeader getNextEntry()
-    public void setPassword(char[])
 dc.squareup.okhttp3.internal.http2.Hpack$Writer:
     private static final int SETTINGS_HEADER_TABLE_SIZE
     private static final int SETTINGS_HEADER_TABLE_SIZE_LIMIT
@@ -1098,12 +1099,12 @@ net.lingala.zip4j.ZipFile:
     public void addStream(java.io.InputStream,net.lingala.zip4j.model.ZipParameters)
     public void extractFile(net.lingala.zip4j.model.FileHeader,java.lang.String)
     public void extractFile(net.lingala.zip4j.model.FileHeader,java.lang.String,net.lingala.zip4j.model.UnzipParameters)
+    public void extractFile(net.lingala.zip4j.model.FileHeader,java.lang.String,java.lang.String,net.lingala.zip4j.model.UnzipParameters)
     public void extractFile(java.lang.String,java.lang.String)
     public void extractFile(java.lang.String,java.lang.String,net.lingala.zip4j.model.UnzipParameters)
     public void extractFile(java.lang.String,java.lang.String,java.lang.String)
     public void extractFile(net.lingala.zip4j.model.FileHeader,java.lang.String,java.lang.String)
     public void extractFile(java.lang.String,java.lang.String,java.lang.String,net.lingala.zip4j.model.UnzipParameters)
-    public void extractFile(net.lingala.zip4j.model.FileHeader,java.lang.String,java.lang.String,net.lingala.zip4j.model.UnzipParameters)
     public java.util.List getFileHeaders()
     public net.lingala.zip4j.model.FileHeader getFileHeader(java.lang.String)
     public boolean isSplitArchive()
@@ -1127,6 +1128,8 @@ net.lingala.zip4j.ZipFile:
     public java.nio.charset.Charset getCharset()
     public void setThreadFactory(java.util.concurrent.ThreadFactory)
     public java.util.concurrent.ExecutorService getExecutorService()
+    public boolean isUseUtf8CharsetForPasswords()
+    public void setUseUtf8CharsetForPasswords(boolean)
 dc.squareup.okhttp3.RealCall:
     public static java.util.Map toMultimap(dc.squareup.okhttp3.Headers,java.lang.String)
     public dc.squareup.okhttp3.Request request()
@@ -1375,6 +1378,7 @@ dc.squareup.okhttp3.internal.ws.RealWebSocket:
     private static final long CANCEL_AFTER_CLOSE_MILLIS
 net.lingala.zip4j.util.Zip4jUtil:
     public void <init>()
+    public static boolean isStringNullOrEmpty(java.lang.String)
     public static long epochToExtendedDosTime(long)
     private static long epochToDosTime(long)
     private static final long DOSTIME_BEFORE_1980
@@ -1399,6 +1403,7 @@ dc.squareup.okhttp3.OkHttpClient:
     public dc.squareup.okhttp3.Cache cache()
 net.lingala.zip4j.io.inputstream.CipherInputStream:
     protected long getNumberOfBytesReadForThisEntry()
+    public net.lingala.zip4j.model.LocalFileHeader getLocalFileHeader()
 android.support.v4.media.session.PlaybackStateCompat$RepeatMode
 dc.squareup.okhttp3.internal.cache.DiskLruCache$Editor$1
 dc.squareup.okhttp3.CookieJar:
@@ -1829,9 +1834,8 @@ net.lingala.zip4j.headers.HeaderUtil:
     public void <init>()
     public static net.lingala.zip4j.model.FileHeader getFileHeader(net.lingala.zip4j.model.ZipModel,java.lang.String)
     public static byte[] getBytesFromString(java.lang.String,java.nio.charset.Charset)
-    public static java.util.List getFileHeadersUnderDirectory(java.util.List,net.lingala.zip4j.model.FileHeader)
+    public static java.util.List getFileHeadersUnderDirectory(java.util.List,java.lang.String)
     private static net.lingala.zip4j.model.FileHeader getFileHeaderWithExactMatch(net.lingala.zip4j.model.ZipModel,java.lang.String)
-    private static synthetic boolean lambda$getFileHeadersUnderDirectory$0(net.lingala.zip4j.model.FileHeader,net.lingala.zip4j.model.FileHeader)
 dc.squareup.okhttp3.Cookie:
     void <init>(dc.squareup.okhttp3.Cookie$Builder)
     private static boolean pathMatch(dc.squareup.okhttp3.HttpUrl,java.lang.String)
@@ -1949,6 +1953,7 @@ net.lingala.zip4j.util.InternalZipConstants:
     public static final int MAX_ALLOWED_ZIP_COMMENT_LENGTH
     public static final java.lang.String ZIP_STANDARD_CHARSET_NAME
     public static final java.lang.String SEVEN_ZIP_SPLIT_FILE_EXTENSION_PATTERN
+    public static final boolean USE_UTF8_FOR_PASSWORD_ENCODING_DECODING
 android.support.v4.media.session.MediaControllerCompat$Callback:
     public void onSessionReady()
     public void onCaptioningEnabledChanged(boolean)
@@ -2087,6 +2092,8 @@ dc.squareup.okhttp3.internal.ws.RealWebSocket:
     static final synthetic boolean $assertionsDisabled
 net.lingala.zip4j.exception.ZipException$Type:
     public static final enum net.lingala.zip4j.exception.ZipException$Type FILE_NOT_FOUND
+net.lingala.zip4j.io.inputstream.CipherInputStream:
+    private net.lingala.zip4j.model.LocalFileHeader localFileHeader
 dc.squareup.okhttp3.MediaType:
     private final java.lang.String type
     private final java.lang.String subtype

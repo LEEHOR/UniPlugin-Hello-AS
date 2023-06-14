@@ -1,10 +1,8 @@
-package com.weilun.uniplugin_wxpay;
+package com.weilun.uniplugin_pay;
 
-import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
-import android.net.Uri;
 import android.util.Log;
 
 import com.alibaba.fastjson.JSONObject;
@@ -13,12 +11,10 @@ import com.taobao.weex.bridge.JSCallback;
 import com.tencent.mm.opensdk.modelbiz.WXLaunchMiniProgram;
 import com.tencent.mm.opensdk.openapi.IWXAPI;
 import com.tencent.mm.opensdk.openapi.WXAPIFactory;
-import com.weilun.uniplugin_wxpay.receiver.ScanCodeBroadcastReceiver;
-import com.weilun.uniplugin_wxpay.utils.Constant;
-import com.weilun.uniplugin_wxpay.utils.SybUtil;
+import com.weilun.uniplugin_pay.receiver.ScanCodeBroadcastReceiver;
+import com.weilun.uniplugin_pay.utils.Constant;
+import com.weilun.uniplugin_pay.utils.SybUtil;
 
-import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
 import java.text.ParseException;
 import java.util.HashMap;
 import java.util.Map;
@@ -32,43 +28,28 @@ import io.dcloud.feature.uniapp.common.UniModule;
  * @description: TODO
  * @date 2023/6/8 11:55
  */
-public class AliPayModule extends UniModule implements ScanCodeBroadcastReceiver.OnReceiveCode {
+public class WxPayModule extends UniModule implements ScanCodeBroadcastReceiver.OnReceiveCode {
     private static String TAG = "weilun.WxPayModule";
     private ScanCodeBroadcastReceiver scanCodeBroadcastReceiver;
 
-    /*
-     * String json = "{" +
-             "\"cusid\": \"平台分配的商户号\"," +
-             "\"appid\": \"平台分配的appid\"," +
-             "\"orgid\": \"平台分配的机构号\"," +
-             "\"version\": \"12\"," +
-             "\"trxamt\": \"1\"," +
-             "\"reqsn\": \"商户唯一订单号\"," +
-             "\"notify_url\": \"服务器异步通知页面路径\"," +
-             "\"body\": \"标题\"," +
-             "\"remark\": \"备注\"," +
-             "\"validtime\": \"订单有效时间\"," +
-             "\"limit_pay\": \"no_credit\"," +
-             "\"randomstr\": \"随机字符串\"," +
-             "\"paytype\": \"A02\"," +
-             "\"sign\": \"签名，参考2.1\"" +
-             "}";
-     String query = URLEncoder.encode("payinfo=" + URLEncoder.encode(json, "UTF-8"), "UTF-8");
-     String url =
-             "alipays://platformapi/startapp?appId=2021001104615521&page=pages/orderDetail/orderDetail&thirdPartSchema="
-                     +  URLEncoder.encode("APP接收跳转的schemeurl", "UTF-8")
-                     + "&query=" + query;*/
+
+
+    //    String appId = "wxd930ea5d5a258f4f"; // 填移动应用(App)的 AppId，非小程序的 AppID
+//    IWXAPI api = WXAPIFactory.createWXAPI(context, appId);
+//
+//    WXLaunchMiniProgram.Req req = new WXLaunchMiniProgram.Req();
+//    req.userName = "gh_e64a1a89a0ad"; // 填小程序原始id
+//    req.path = path;                  ////拉起小程序页面的可带参路径，不填默认拉起小程序首页，对于小游戏，可以只传入 query 部分，来实现传参效果，如：传入 "?foo=bar"。
+//    req.miniprogramType = WXLaunchMiniProgram.Req.MINIPTOGRAM_TYPE_RELEASE;// 可选打开 开发版，体验版和正式版
+//api.sendReq(req);
     @JSMethod(uiThread = false)
     public void startPay(JSONObject options, JSCallback jsCallback) throws ParseException {
-//        scanCodeBroadcastReceiver = new ScanCodeBroadcastReceiver();
-//        IntentFilter intentFilter = new IntentFilter();
-//        intentFilter.addAction(Constant.ACTION_PAY_BRE);
-//        mUniSDKInstance.getContext().registerReceiver(scanCodeBroadcastReceiver, intentFilter);
-//        scanCodeBroadcastReceiver.setOnReceive(this::scanCode);
+        registerReceiver();
         JSONObject result = new JSONObject();
         if (options == null) {
             result.put("code", 500);
             result.put("msg", "支付参数不能为空");
+            jsCallback.invoke(result);
         } else {
             String trxamt = options.getString("trxamt");
             String body = options.getString("body");
@@ -76,11 +57,11 @@ public class AliPayModule extends UniModule implements ScanCodeBroadcastReceiver
             if (trxamt == null) {
                 result.put("code", 500);
                 result.put("msg", "支付金额不能为空");
+                jsCallback.invoke(result);
             } else {
                 buildPayParam(trxamt, body, remark);
             }
         }
-        jsCallback.invoke(result);
     }
 
     private void buildPayParam(String trxamt, String body, String remark) {
@@ -92,7 +73,8 @@ public class AliPayModule extends UniModule implements ScanCodeBroadcastReceiver
             // &body=标题&remark=备注
             // &validtime=订单有效时间&limit_pay=no_credit&randomstr=随机字符串&paytype=W06&sign=签名
             ApplicationInfo appInfo = mUniSDKInstance.getContext().getPackageManager().getApplicationInfo(mUniSDKInstance.getContext().getPackageName(), PackageManager.GET_META_DATA);
-            String aliappid = appInfo.metaData.getString("ali_appid").replaceFirst("a", "");
+            String wxsdk_appid = appInfo.metaData.getString("wxsdk_appid");
+            String original_mpid = appInfo.metaData.getString("original_mpid");
             String sybcusid = appInfo.metaData.getString("syb_cusid");
             String syb_appids = appInfo.metaData.getString("syb_appid").replaceFirst("a", "");
             String sybrsa = appInfo.metaData.getString("syb_rsa");
@@ -114,40 +96,34 @@ public class AliPayModule extends UniModule implements ScanCodeBroadcastReceiver
             params.put("reqsn", "dh" + System.currentTimeMillis());
             params.put("notify_url", callbackurl);
             //订单标题
-            if (body != null) {
-                params.put("body", body);
-            }
+            params.put("body", body);
             //订单备注信息
-            if (remark != null) {
-                params.put("remark", remark);
-            }
-
+            params.put("remark", remark);
             //订单有效时间
             params.put("validtime", "5");
             params.put("limit_pay", "no_credit");
             //随机字符串
             params.put("randomstr", SybUtil.getValidatecode(8));
-            params.put("paytype", "A02");
+            params.put("paytype", "W06");
 //            params.put("signtype", "MD5");
             String sign = SybUtil.unionSign(params, sybrsa, "MD5");
             params.put("sign", sign);
-            toPay(JSONObject.toJSONString(params), aliappid);
+            toPay(SybUtil.strAppend(params), wxsdk_appid, original_mpid);
         } catch (Exception e) {
-            Log.e(TAG, "toAliPay: " + e.getMessage());
+            Log.e(TAG, "toWxPay: " + e.getMessage());
         }
 
     }
 
-    private void toPay(String payStr, String appId) throws UnsupportedEncodingException {
-        String query = URLEncoder.encode("payinfo=" + URLEncoder.encode(payStr, "UTF-8"), "UTF-8");
-        String url = "alipays://platformapi/startapp?appId=" + appId + "&page=pages/orderDetail/orderDetail&thirdPartSchema="
-                + URLEncoder.encode("leehorallinpaysdk://sdk/", "UTF-8")
-                + "&query=" + query;
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        String intentUri = intent.toUri(Intent.URI_INTENT_SCHEME);
-        Log.e(TAG, "action是:" + intentUri);
-        mUniSDKInstance.getContext().startActivity(intent);
+    private void toPay(String payStr, String wxsdk_appid, String original_mpid) {
+        String payParms = payStr;
+        String path = "pages/orderDetail/orderDetail?" + payParms;
+        IWXAPI api = WXAPIFactory.createWXAPI(mUniSDKInstance.getContext(), wxsdk_appid);
+        WXLaunchMiniProgram.Req req = new WXLaunchMiniProgram.Req();
+        req.userName = original_mpid; // 填小程序原始id
+        req.path = path; ////拉起小程序页面的可带参路径，不填默认拉起小程序首页，对于小游戏，可以只传入 query 部分，来实现传参效果，如：传入 "?foo=bar"。
+        req.miniprogramType = WXLaunchMiniProgram.Req.MINIPTOGRAM_TYPE_RELEASE;// 可选打开 开发版，体验版和正式版
+        api.sendReq(req);
     }
 
     private void registerReceiver() {
@@ -161,7 +137,7 @@ public class AliPayModule extends UniModule implements ScanCodeBroadcastReceiver
     @Override
     public void onActivityCreate() {
         super.onActivityCreate();
-        registerReceiver();
+//        registerReceiver();
     }
 
     @Override
@@ -179,7 +155,6 @@ public class AliPayModule extends UniModule implements ScanCodeBroadcastReceiver
         }
         scanCodeBroadcastReceiver = null;
     }
-
     @Override
     public void scanCode(String code, String errmsg, boolean success) {
         Log.e("TAG", "code===" + code + ";errmsg===" + errmsg + ";success===" + success);
@@ -187,6 +162,6 @@ public class AliPayModule extends UniModule implements ScanCodeBroadcastReceiver
         params.put("success", success);
         params.put("code", code);
         params.put("errmsg", errmsg);
-        mUniSDKInstance.fireGlobalEventCallback("allinPay", params);
+        mUniSDKInstance.fireGlobalEventCallback("allinPayEvent", params);
     }
 }

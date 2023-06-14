@@ -793,6 +793,8 @@ drawable dcloud_ad_splash_click_btn_bg
 drawable dcloud_ad_splash_skip_bg
 drawable dcloud_ad_splash_skip_shape
 drawable dcloud_ad_webview_activity_title_bg
+drawable dcloud_ad_wm_alert_background_shape
+drawable dcloud_ad_wm_btn_clicked_shape
 drawable dcloud_as_bg_ios6
 drawable dcloud_as_cancel_bt_bg
 drawable dcloud_as_other_bt_bg
@@ -1017,6 +1019,8 @@ id cr_white
 id custom
 id customLayout
 id customPanel
+id dcloud_ad_wm_abandon
+id dcloud_ad_wm_close
 id dcloud_dialog_btn1
 id dcloud_dialog_btn2
 id dcloud_dialog_icon
@@ -1299,6 +1303,7 @@ layout dcloud_activity_main_market
 layout dcloud_ad_activity_webview
 layout dcloud_ad_main_container
 layout dcloud_ad_splash_container
+layout dcloud_ad_wm_alert_layout
 layout dcloud_custom_alert_dialog_layout
 layout dcloud_custom_notification
 layout dcloud_custom_notification_dark

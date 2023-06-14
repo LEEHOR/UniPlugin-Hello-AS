@@ -6,24 +6,80 @@ INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.
 		ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:74:13-44
 	android:name
 		ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:73:13-41
+meta-data#wxsdk_appid
+INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:76:9-75
+	android:value
+		INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
+		ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:76:47-73
+	android:name
+		ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:76:20-46
+meta-data#original_mpid
+INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:78:9-82
+	android:value
+		INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
+		ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:78:49-80
+	android:name
+		ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:78:20-48
+meta-data#syb_cusid
+INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:80:9-74
+	android:value
+		INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
+		ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:80:45-72
+	android:name
+		ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:80:20-44
+meta-data#syb_appid
+INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:82:9-74
+	android:value
+		INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
+		ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:82:45-72
+	android:name
+		ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:82:20-44
+meta-data#syb_rsa
+INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:84:9-70
+	android:value
+		INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
+		ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:84:43-68
+	android:name
+		ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:84:20-42
+meta-data#call_back_url
+INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:86:9-81
+	android:value
+		INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
+		ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:86:49-79
+	android:name
+		ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:86:20-48
+meta-data#ali_appid
+INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:88:9-74
+	android:value
+		INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
+		ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:88:45-72
+	android:name
+		ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:88:20-44
+meta-data#com.amap.api.v2.apikey
+INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:90:9-91:21
+	android:value
+		INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
+		ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:90:58-87
+	android:name
+		ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:90:20-57
 manifest
-ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-77:12
-INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-77:12
-INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-77:12
-INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-77:12
+ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-94:12
+INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-94:12
+INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-94:12
+INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-94:12
 MERGED from [android-gif-drawable-release@1.2.23.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\637c37c069d5d13334eec2f6a55da107\jetified-android-gif-drawable-release@1.2.23\AndroidManifest.xml:2:1-9:12
 MERGED from [breakpad-build-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\9ebfe1c2ab737b5274cd67721b9e7dcd\jetified-breakpad-build-release\AndroidManifest.xml:2:1-9:12
-MERGED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:2:1-279:12
+MERGED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:2:1-279:12
 MERGED from [oaid_sdk_1.0.25.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\b292d9118763fa272156cefe4365bc63\jetified-oaid_sdk_1.0.25\AndroidManifest.xml:2:1-17:12
-MERGED from [uniapp-v8-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\4b8fa5ab94696aec1701ae22c528ee38\jetified-uniapp-v8-release\AndroidManifest.xml:20:1-37:12
+MERGED from [uniapp-v8-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\ca6b7ef1acab40e4d0cff377b682b48a\jetified-uniapp-v8-release\AndroidManifest.xml:20:1-37:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\c9e3c86218f0ebf08d011b105d6d4b36\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_beLocation\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-46:12
+MERGED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_beLocation\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-42:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\4f9c7f78c15bb692cf0895b881aafbad\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\7087e7f62a3d23efa2c47cb5fc0ce856\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.fresco:fresco:1.13.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\3d0d081e1147555bbeaa840a757f6013\jetified-fresco-1.13.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:animated-gif:1.13.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\eefc3eac1932c86fb5dd86807d004e9a\jetified-animated-gif-1.13.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\88203784b4902c4b0a3523092c014d02\jetified-glide-4.9.0\AndroidManifest.xml:2:1-12:12
-MERGED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-87:12
+MERGED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-54:12
 MERGED from [androidx.webkit:webkit:1.3.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\8b45492b1bedb5d0c63e879e1653bfce\webkit-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.media:media:1.0.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\b52031778c3730d2e5cb2a6c88a2a2c6\media-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\3db056b7b2a67d9700cd1094de7f7779\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -65,30 +121,27 @@ MERGED from [com.facebook.fresco:imagepipeline-base:1.13.0] C:\Users\李浩\.gradl
 MERGED from [com.facebook.fresco:fbcore:1.13.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\88f46aab54f4a456c9c84a18c011aa39\jetified-fbcore-1.13.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\3e80261709c2ea9f77d87cf799dc92a6\jetified-soloader-0.6.0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.tencent.mm.opensdk:wechat-sdk-android:6.8.24] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\5c3debc348b2443a3c2d5d33fe5219ae\jetified-wechat-sdk-android-6.8.24\AndroidManifest.xml:2:1-9:12
-MERGED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:2:1-78:12
-INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-77:12
-INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-77:12
-INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-94:12
+INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-94:12
+INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-94:12
 	package
 		ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:3:5-29
 		INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
 		INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
-		ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-77:12
+		ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-94:12
 		INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
-		ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-77:12
+		ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-94:12
 		INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:11-69
 supports-screens
 ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:5:5-10:39
-MERGED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:7:5-12:39
-MERGED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:7:5-12:39
-MERGED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:21:5-26:39
-MERGED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:21:5-26:39
+MERGED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:7:5-12:39
+MERGED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:7:5-12:39
 	android:largeScreens
 		ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:7:9-36
 	android:smallScreens
@@ -100,17 +153,17 @@ MERGED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\cac
 	android:anyDensity
 		ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:6:9-34
 application
-ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:11:5-75:19
-MERGED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:171:5-277:19
-MERGED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:171:5-277:19
-MERGED from [uniapp-v8-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\4b8fa5ab94696aec1701ae22c528ee38\jetified-uniapp-v8-release\AndroidManifest.xml:29:5-35:19
-MERGED from [uniapp-v8-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\4b8fa5ab94696aec1701ae22c528ee38\jetified-uniapp-v8-release\AndroidManifest.xml:29:5-35:19
-MERGED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_beLocation\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:5-44:19
-MERGED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_beLocation\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:5-44:19
+ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:11:5-92:19
+MERGED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:171:5-277:19
+MERGED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:171:5-277:19
+MERGED from [uniapp-v8-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\ca6b7ef1acab40e4d0cff377b682b48a\jetified-uniapp-v8-release\AndroidManifest.xml:29:5-35:19
+MERGED from [uniapp-v8-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\ca6b7ef1acab40e4d0cff377b682b48a\jetified-uniapp-v8-release\AndroidManifest.xml:29:5-35:19
+MERGED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_beLocation\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:5-40:19
+MERGED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_beLocation\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:5-40:19
 MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\88203784b4902c4b0a3523092c014d02\jetified-glide-4.9.0\AndroidManifest.xml:10:5-20
 MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\88203784b4902c4b0a3523092c014d02\jetified-glide-4.9.0\AndroidManifest.xml:10:5-20
-MERGED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-85:19
-MERGED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-85:19
+MERGED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-52:19
+MERGED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-52:19
 MERGED from [androidx.core:core:1.3.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\817a61a686dfd849f92445d1d98580bd\core-1.3.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.3.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\817a61a686dfd849f92445d1d98580bd\core-1.3.0\AndroidManifest.xml:24:5-89
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\61f123e316a3191fa25e87c26759e949\jetified-gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
@@ -119,10 +172,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\李
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\fa40148eab14a6d2386ba091992d3749\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\3e80261709c2ea9f77d87cf799dc92a6\jetified-soloader-0.6.0\AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\3e80261709c2ea9f77d87cf799dc92a6\jetified-soloader-0.6.0\AndroidManifest.xml:11:5-20
-MERGED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:32:5-76:19
-MERGED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:32:5-76:19
 	android:extractNativeLibs
-		ADDED from [uniapp-v8-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\4b8fa5ab94696aec1701ae22c528ee38\jetified-uniapp-v8-release\AndroidManifest.xml:29:18-50
+		ADDED from [uniapp-v8-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\ca6b7ef1acab40e4d0cff377b682b48a\jetified-uniapp-v8-release\AndroidManifest.xml:29:18-50
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\817a61a686dfd849f92445d1d98580bd\core-1.3.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
@@ -138,7 +189,7 @@ MERGED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\cac
 	android:allowBackup
 		ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:13:9-35
 	android:usesCleartextTraffic
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:174:9-44
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:174:9-44
 	android:name
 		ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:12:9-63
 activity#io.dcloud.PandoraEntry
@@ -223,12 +274,12 @@ MERGED from [android-gif-drawable-release@1.2.23.aar] C:\Users\李浩\.gradle\cach
 MERGED from [android-gif-drawable-release@1.2.23.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\637c37c069d5d13334eec2f6a55da107\jetified-android-gif-drawable-release@1.2.23\AndroidManifest.xml:5:5-7:41
 MERGED from [breakpad-build-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\9ebfe1c2ab737b5274cd67721b9e7dcd\jetified-breakpad-build-release\AndroidManifest.xml:5:5-7:41
 MERGED from [breakpad-build-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\9ebfe1c2ab737b5274cd67721b9e7dcd\jetified-breakpad-build-release\AndroidManifest.xml:5:5-7:41
-MERGED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:5:5-44
-MERGED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:5:5-44
+MERGED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:5:5-44
+MERGED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:5:5-44
 MERGED from [oaid_sdk_1.0.25.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\b292d9118763fa272156cefe4365bc63\jetified-oaid_sdk_1.0.25\AndroidManifest.xml:8:5-11:63
 MERGED from [oaid_sdk_1.0.25.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\b292d9118763fa272156cefe4365bc63\jetified-oaid_sdk_1.0.25\AndroidManifest.xml:8:5-11:63
-MERGED from [uniapp-v8-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\4b8fa5ab94696aec1701ae22c528ee38\jetified-uniapp-v8-release\AndroidManifest.xml:25:5-27:41
-MERGED from [uniapp-v8-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\4b8fa5ab94696aec1701ae22c528ee38\jetified-uniapp-v8-release\AndroidManifest.xml:25:5-27:41
+MERGED from [uniapp-v8-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\ca6b7ef1acab40e4d0cff377b682b48a\jetified-uniapp-v8-release\AndroidManifest.xml:25:5-27:41
+MERGED from [uniapp-v8-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\ca6b7ef1acab40e4d0cff377b682b48a\jetified-uniapp-v8-release\AndroidManifest.xml:25:5-27:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\c9e3c86218f0ebf08d011b105d6d4b36\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\c9e3c86218f0ebf08d011b105d6d4b36\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_beLocation\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
@@ -243,8 +294,8 @@ MERGED from [com.facebook.fresco:animated-gif:1.13.0] C:\Users\李浩\.gradle\cach
 MERGED from [com.facebook.fresco:animated-gif:1.13.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\eefc3eac1932c86fb5dd86807d004e9a\jetified-animated-gif-1.13.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\88203784b4902c4b0a3523092c014d02\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\88203784b4902c4b0a3523092c014d02\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
-MERGED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
-MERGED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.webkit:webkit:1.3.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\8b45492b1bedb5d0c63e879e1653bfce\webkit-1.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.webkit:webkit:1.3.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\8b45492b1bedb5d0c63e879e1653bfce\webkit-1.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.media:media:1.0.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\b52031778c3730d2e5cb2a6c88a2a2c6\media-1.0.0\AndroidManifest.xml:20:5-44
@@ -327,8 +378,6 @@ MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\李浩\.gradle\caches\
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\3e80261709c2ea9f77d87cf799dc92a6\jetified-soloader-0.6.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.tencent.mm.opensdk:wechat-sdk-android:6.8.24] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\5c3debc348b2443a3c2d5d33fe5219ae\jetified-wechat-sdk-android-6.8.24\AndroidManifest.xml:5:5-7:41
 MERGED from [com.tencent.mm.opensdk:wechat-sdk-android:6.8.24] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\5c3debc348b2443a3c2d5d33fe5219ae\jetified-wechat-sdk-android-6.8.24\AndroidManifest.xml:5:5-7:41
-MERGED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:7:5-44
-MERGED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:7:5-44
 INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
 INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
@@ -342,201 +391,195 @@ INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.
 		ADDED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
 		INJECTED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:14:5-81
+ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:14:5-81
 MERGED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_beLocation\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:5-81
 MERGED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_beLocation\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:5-81
-MERGED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-81
-MERGED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-81
+MERGED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
+MERGED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
 	android:name
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:14:22-78
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:14:22-78
 uses-permission#android.permission.READ_MEDIA_IMAGES
-ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:17:5-76
+ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:17:5-76
 	android:name
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:17:22-73
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:17:22-73
 uses-permission#android.permission.READ_MEDIA_VIDEO
-ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:18:5-75
+ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:18:5-75
 	android:name
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:18:22-72
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:18:22-72
 uses-permission#android.permission.INTERNET
-ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:19:5-67
+ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:19:5-67
 MERGED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_beLocation\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:5-67
 MERGED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_beLocation\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:5-67
-MERGED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
-MERGED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
-MERGED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:28:5-67
-MERGED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:28:5-67
+MERGED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
+MERGED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
 	android:name
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:19:22-64
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:19:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:20:5-79
+ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:20:5-79
 MERGED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_beLocation\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-79
 MERGED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_beLocation\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-79
-MERGED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:29:5-79
-MERGED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:29:5-79
 	android:name
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:20:22-76
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:20:22-76
 uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
-ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:26:5-91
+ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:26:5-91
 	android:name
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:26:22-88
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:26:22-88
 uses-permission#com.vivo.notification.permission.BADGE_ICON
-ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:28:5-83
+ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:28:5-83
 	android:name
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:28:22-80
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:28:22-80
 queries
-ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:30:5-39:15
-MERGED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:9:5-19:15
-MERGED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:9:5-19:15
+ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:30:5-39:15
 intent#action:name:android.intent.action.MAIN
-ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:31:9-33:18
+ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:31:9-33:18
 intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT
-ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:34:9-38:18
+ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:34:9-38:18
 activity#io.dcloud.feature.nativeObj.photoview.PhotoActivity
-ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:183:9-189:58
+ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:183:9-189:58
 	android:screenOrientation
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:188:13-47
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:188:13-47
 	android:noHistory
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:187:13-38
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:187:13-38
 	android:exported
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:186:13-37
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:186:13-37
 	android:configChanges
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:185:13-63
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:185:13-63
 	android:theme
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:189:13-55
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:189:13-55
 	android:name
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:184:13-79
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:184:13-79
 activity#io.dcloud.WebAppActivity
-ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:190:9-199:58
+ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:190:9-199:58
 	android:screenOrientation
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:197:13-49
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:197:13-49
 	android:label
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:195:13-46
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:195:13-46
 	android:launchMode
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:196:13-44
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:196:13-44
 	android:hardwareAccelerated
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:193:13-47
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:193:13-47
 	android:windowSoftInputMode
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:199:13-55
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:199:13-55
 	android:configChanges
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:192:13-144
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:192:13-144
 	android:icon
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:194:13-51
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:194:13-51
 	android:theme
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:198:13-47
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:198:13-47
 	android:name
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:191:13-52
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:191:13-52
 activity#io.dcloud.ProcessMediator
-ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:200:9-204:75
+ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:200:9-204:75
 	android:excludeFromRecents
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:202:13-46
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:202:13-46
 	android:exported
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:203:13-37
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:203:13-37
 	android:theme
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:204:13-72
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:204:13-72
 	android:name
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:201:13-53
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:201:13-53
 activity#io.dcloud.WebviewActivity
-ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:205:9-211:20
+ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:205:9-211:20
 	android:screenOrientation
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:208:13-49
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:208:13-49
 	android:windowSoftInputMode
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:210:13-52
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:210:13-52
 	android:exported
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:207:13-37
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:207:13-37
 	android:theme
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:209:13-51
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:209:13-51
 	android:name
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:206:13-53
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:206:13-53
 activity#com.dmcbig.mediapicker.PickerActivity
-ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:214:9-219:63
+ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:214:9-219:63
 	android:windowSoftInputMode
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:219:13-60
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:219:13-60
 	android:exported
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:217:13-37
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:217:13-37
 	android:configChanges
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:216:13-59
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:216:13-59
 	android:theme
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:218:13-55
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:218:13-55
 	android:name
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:215:13-65
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:215:13-65
 activity#com.dmcbig.mediapicker.PreviewActivity
-ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:220:9-225:63
+ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:220:9-225:63
 	android:windowSoftInputMode
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:225:13-60
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:225:13-60
 	android:exported
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:223:13-37
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:223:13-37
 	android:configChanges
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:222:13-59
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:222:13-59
 	android:theme
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:224:13-55
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:224:13-55
 	android:name
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:221:13-66
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:221:13-66
 provider#io.dcloud.common.util.DCloud_FileProvider
-ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:228:9-236:20
+ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:228:9-236:20
 	android:grantUriPermissions
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:232:13-47
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:232:13-47
 	android:authorities
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:230:13-67
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:230:13-67
 	android:exported
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:231:13-37
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:231:13-37
 	android:name
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:229:13-69
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:229:13-69
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:233:13-235:64
+ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:233:13-235:64
 	android:resource
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:235:17-61
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:235:17-61
 	android:name
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:234:17-67
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:234:17-67
 meta-data#android.max_aspect
-ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:243:9-245:35
+ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:243:9-245:35
 	android:value
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:245:13-32
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:245:13-32
 	android:name
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:244:13-46
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:244:13-46
 activity#io.dcloud.feature.gallery.imageedit.IMGEditActivity
-ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:247:9-252:63
+ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:247:9-252:63
 	android:windowSoftInputMode
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:252:13-60
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:252:13-60
 	android:exported
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:250:13-37
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:250:13-37
 	android:configChanges
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:249:13-74
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:249:13-74
 	android:theme
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:251:13-50
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:251:13-50
 	android:name
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:248:13-79
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:248:13-79
 activity#io.dcloud.sdk.activity.WebViewActivity
-ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:255:9-260:55
+ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:255:9-260:55
 	android:screenOrientation
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:258:13-49
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:258:13-49
 	android:windowSoftInputMode
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:260:13-52
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:260:13-52
 	android:exported
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:257:13-37
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:257:13-37
 	android:theme
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:259:13-51
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:259:13-51
 	android:name
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:256:13-66
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:256:13-66
 service#io.dcloud.sdk.base.service.DownloadService
-ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:262:9-265:72
+ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:262:9-265:72
 	android:exported
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:264:13-37
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:264:13-37
 	android:permission
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:265:13-69
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:265:13-69
 	android:name
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:263:13-70
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:263:13-70
 provider#io.dcloud.sdk.base.service.provider.DCloudAdFileProvider
-ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:267:9-275:20
+ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:267:9-275:20
 	android:grantUriPermissions
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:271:13-47
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:271:13-47
 	android:authorities
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:269:13-67
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:269:13-67
 	android:exported
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:270:13-37
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:270:13-37
 	android:name
-		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\42be28001cc8fbaf4dac7bb05d8f3719\jetified-lib.5plus.base-release\AndroidManifest.xml:268:13-84
+		ADDED from [lib.5plus.base-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\04d2dcbf8956c0b4d6afe134d6528c4e\jetified-lib.5plus.base-release\AndroidManifest.xml:268:13-84
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-77:12 reason: io.dcloud.base requested WRITE_EXTERNAL_STORAGE
+IMPLIED from D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-94:12 reason: io.dcloud.base requested WRITE_EXTERNAL_STORAGE
 uses-permission#com.asus.msa.SupplementaryDID.ACCESS
 ADDED from [oaid_sdk_1.0.25.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\b292d9118763fa272156cefe4365bc63\jetified-oaid_sdk_1.0.25\AndroidManifest.xml:13:5-76
 	android:name
@@ -546,13 +589,13 @@ ADDED from [oaid_sdk_1.0.25.aar] C:\Users\李浩\.gradle\caches\transforms-2\files
 	android:name
 		ADDED from [oaid_sdk_1.0.25.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\b292d9118763fa272156cefe4365bc63\jetified-oaid_sdk_1.0.25\AndroidManifest.xml:15:22-59
 receiver#com.taobao.weex.WXGlobalEventReceiver
-ADDED from [uniapp-v8-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\4b8fa5ab94696aec1701ae22c528ee38\jetified-uniapp-v8-release\AndroidManifest.xml:30:9-34:20
+ADDED from [uniapp-v8-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\ca6b7ef1acab40e4d0cff377b682b48a\jetified-uniapp-v8-release\AndroidManifest.xml:30:9-34:20
 	android:enabled
-		ADDED from [uniapp-v8-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\4b8fa5ab94696aec1701ae22c528ee38\jetified-uniapp-v8-release\AndroidManifest.xml:32:13-35
+		ADDED from [uniapp-v8-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\ca6b7ef1acab40e4d0cff377b682b48a\jetified-uniapp-v8-release\AndroidManifest.xml:32:13-35
 	android:exported
-		ADDED from [uniapp-v8-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\4b8fa5ab94696aec1701ae22c528ee38\jetified-uniapp-v8-release\AndroidManifest.xml:33:13-37
+		ADDED from [uniapp-v8-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\ca6b7ef1acab40e4d0cff377b682b48a\jetified-uniapp-v8-release\AndroidManifest.xml:33:13-37
 	android:name
-		ADDED from [uniapp-v8-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\4b8fa5ab94696aec1701ae22c528ee38\jetified-uniapp-v8-release\AndroidManifest.xml:31:13-65
+		ADDED from [uniapp-v8-release.aar] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\ca6b7ef1acab40e4d0cff377b682b48a\jetified-uniapp-v8-release\AndroidManifest.xml:31:13-65
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_beLocation\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-81
 	android:name
@@ -563,8 +606,6 @@ ADDED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_2023
 		ADDED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_beLocation\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_beLocation\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-76
-MERGED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:30:5-76
-MERGED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:30:5-76
 	android:name
 		ADDED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_beLocation\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:22-73
 uses-permission#android.permission.CHANGE_WIFI_STATE
@@ -593,201 +634,57 @@ ADDED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_2023
 		ADDED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_beLocation\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-53
 	android:name
 		ADDED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_beLocation\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:13-60
-meta-data#com.amap.api.v2.apikey
-ADDED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_beLocation\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:9-43:21
-	android:value
-		ADDED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_beLocation\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-61
-	android:name
-		ADDED from [:uniplugin_beLocation] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_beLocation\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-50
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-80
+ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-80
 	android:name
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-77
-activity#com.weilun.uniplugin_wxpay.wxapi.WXEntryActivity
-ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-22:75
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-77
+activity#com.weilun.uniplugin_pay.wxapi.WXEntryActivity
+ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-21:75
 	android:launchMode
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-44
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-44
 	android:exported
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-36
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-36
 	android:theme
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-72
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-72
 	android:taskAffinity
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-52
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-52
 	android:name
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-76
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-74
 activity-alias#${applicationId}.wxapi.WXEntryActivity
-ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:9-27:89
+ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-26:87
 	android:exported
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-36
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-36
 	android:targetActivity
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-86
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-84
 	android:name
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-66
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-66
 activity-alias#uni.UNI1E05D94.wxapi.WXEntryActivity
-ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:9-27:89
+ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-26:87
 	android:exported
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-36
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-36
 	android:targetActivity
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-86
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-84
 	android:name
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-66
-activity#com.weilun.uniplugin_wxpay.wxapi.AliPayActivity
-ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:9-46:20
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-66
+activity#com.weilun.uniplugin_pay.wxapi.AliPayActivity
+ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:9-45:20
 	android:label
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:13-45
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-45
 	android:launchMode
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-44
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:13-44
 	android:exported
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-36
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-36
 	android:theme
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-66
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-66
 	android:name
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-75
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-73
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:sdk+data:path:/backfromalipay+data:scheme:leehorallinpaysdk
-ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-45:29
-receiver#com.weilun.uniplugin_wxpay.receiver.ScanCodeBroadcastReceiver
-ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:9-55:20
+ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-44:29
+receiver#com.weilun.uniplugin_pay.receiver.ScanCodeBroadcastReceiver
+ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:9-51:20
 	android:enabled
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:13-35
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:13-35
 	android:exported
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:13-36
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:13-36
 	android:name
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:13-89
-intent-filter#action:name:action_pay_bre
-ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:13-54:29
-action#action_pay_bre
-ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:17-57
-	android:name
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:25-54
-meta-data#wxsdk_appid
-ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:9-60:50
-	android:value
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:13-47
-	android:name
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:13-39
-meta-data#original_mpid
-ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:9-64:47
-	android:value
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:13-44
-	android:name
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:13-41
-meta-data#syb_cusid
-ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:66:9-68:47
-	android:value
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:13-44
-	android:name
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:67:13-37
-meta-data#syb_appid
-ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:9-72:41
-	android:value
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:13-38
-	android:name
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:71:13-37
-meta-data#syb_rsa
-ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:9-76:40
-	android:value
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:76:13-37
-	android:name
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:75:13-35
-meta-data#call_back_url
-ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:78:9-80:72
-	android:value
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:80:13-69
-	android:name
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:79:13-41
-meta-data#ali_appid
-ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:82:9-84:49
-	android:value
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:84:13-46
-	android:name
-		ADDED from [:uniplugin_wxpay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_wxpay\build\intermediates\library_manifest\debug\AndroidManifest.xml:83:13-37
-intent#action:name:*+data:scheme:tbopen
-ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:10:9-14:18
-action#*
-ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:11:13-40
-	android:name
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:11:21-37
-package#com.eg.android.AlipayGphone
-ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:16:9-63
-	android:name
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:16:18-60
-package#com.eg.android.AlipayGphoneRC
-ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:17:9-65
-	android:name
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:17:18-62
-package#hk.alipay.wallet
-ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:18:9-52
-	android:name
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:18:18-49
-uses-library#org.apache.http.legacy
-ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:33:9-35:40
-	android:required
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:35:13-37
-	android:name
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:34:13-50
-activity#com.alipay.sdk.app.H5PayActivity
-ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:37:9-42:20
-	android:exported
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:40:13-37
-	android:configChanges
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:39:13-167
-	android:theme
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:41:13-60
-	android:name
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:38:13-60
-activity#com.alipay.sdk.app.H5AuthActivity
-ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:43:9-48:20
-	android:exported
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:46:13-37
-	android:configChanges
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:45:13-167
-	android:theme
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:47:13-60
-	android:name
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:44:13-61
-activity#com.alipay.sdk.app.PayResultActivity
-ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:49:9-55:20
-	android:launchMode
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:53:13-48
-	android:exported
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:52:13-36
-	android:configChanges
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:51:13-167
-	android:theme
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:54:13-72
-	android:name
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:50:13-64
-activity#com.alipay.sdk.app.AlipayResultActivity
-ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:56:9-62:20
-	android:launchMode
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:60:13-44
-	android:exported
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:59:13-36
-	android:configChanges
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:58:13-167
-	android:theme
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:61:13-72
-	android:name
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:57:13-67
-activity#com.alipay.sdk.app.H5OpenAuthActivity
-ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:63:9-69:20
-	android:screenOrientation
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:67:13-47
-	android:windowSoftInputMode
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:68:13-67
-	android:exported
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:66:13-37
-	android:configChanges
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:65:13-167
-	android:name
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:64:13-65
-activity#com.alipay.sdk.app.APayEntranceActivity
-ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:70:9-75:20
-	android:exported
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:73:13-37
-	android:configChanges
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:72:13-167
-	android:theme
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:74:13-72
-	android:name
-		ADDED from [com.alipay.sdk:alipaysdk-android:15.8.14] C:\Users\李浩\.gradle\caches\transforms-2\files-2.1\43db35cfbfefc6472231d238cdc3714d\jetified-alipaysdk-android-15.8.14\AndroidManifest.xml:71:13-67
+		ADDED from [:uniplugin_pay] D:\uniappProject\Android-SDK@3.6.2.81499_20230412\Android-SDK@3.6.2.81499_20230412\UniPlugin-Hello-AS\uniplugin_pay\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:13-87

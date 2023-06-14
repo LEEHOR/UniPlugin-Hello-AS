@@ -37,15 +37,6 @@
 
             <category android:name="android.intent.category.DEFAULT" />
         </intent>
-        <intent> <!-- H5 支持手淘登录 -->
-            <action android:name="*" />
-
-            <data android:scheme="tbopen" />
-        </intent>
-
-        <package android:name="com.eg.android.AlipayGphone" /> <!-- 支付宝 app -->
-        <package android:name="com.eg.android.AlipayGphoneRC" /> <!-- 沙箱支付宝 app -->
-        <package android:name="hk.alipay.wallet" />
     </queries>
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -130,6 +121,39 @@
         <meta-data
             android:name="dcloud_appkey"
             android:value="b838abb27bb5670afd35eb2083605b41" />
+        <!-- 填移动应用(App)的 AppId -->
+        <meta-data
+            android:name="wxsdk_appid"
+            android:value="wxd2b6b1c1530ba9fa" />
+        <!-- 支付平台小程序原始ID -->
+        <meta-data
+            android:name="original_mpid"
+            android:value="gh_e64a1a89a0ad" />
+        <!-- 商户id -->
+        <meta-data
+            android:name="syb_cusid"
+            android:value="56236105532X6MU" />
+        <!-- appid 前面拼接一个a字符，防止出现纯数字解析出错 -->
+        <meta-data
+            android:name="syb_appid"
+            android:value="a00274167" />
+        <!-- 交易密钥 -->
+        <meta-data
+            android:name="syb_rsa"
+            android:value="fj123456789" />
+        <!-- 回调地址 -->
+        <meta-data
+            android:name="call_back_url"
+            android:value="http://www.hffjlt.com/fj/m/NotifyServlet" />
+        <!-- 支付宝appid 前面拼接一个a字符，防止出现纯数字解析出错 -->
+        <meta-data
+            android:name="ali_appid"
+            android:value="a2021001104615521" />
+        <!-- 高德地图apikey -->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="5207df019d331a923ecc72824bb6e005" >
+        </meta-data>
         <!--
         <activity
             android:name="io.dcloud.imagepick.CustomGalleryActivity"
@@ -231,15 +255,10 @@
 
         <service
             android:name="com.amap.api.location.APSService"
-            android:foregroundServiceType="location" /> <!-- <meta-data android:name="com.amap.api.v2.apikey" android:value="${amapApikey}"> -->
-        <!-- </meta-data> -->
-        <meta-data
-            android:name="com.amap.api.v2.apikey"
-            android:value="5207df019d331a923ecc72824bb6e005" >
-        </meta-data>
+            android:foregroundServiceType="location" />
 
         <activity
-            android:name="com.weilun.uniplugin_wxpay.wxapi.WXEntryActivity"
+            android:name="com.weilun.uniplugin_pay.wxapi.WXEntryActivity"
             android:exported="true"
             android:launchMode="singleTask"
             android:taskAffinity="uni.UNI1E05D94"
@@ -248,10 +267,10 @@
         <activity-alias
             android:name="uni.UNI1E05D94.wxapi.WXEntryActivity"
             android:exported="true"
-            android:targetActivity="com.weilun.uniplugin_wxpay.wxapi.WXEntryActivity" />
+            android:targetActivity="com.weilun.uniplugin_pay.wxapi.WXEntryActivity" />
 
         <activity
-            android:name="com.weilun.uniplugin_wxpay.wxapi.AliPayActivity"
+            android:name="com.weilun.uniplugin_pay.wxapi.AliPayActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:launchMode="singleTask"
@@ -270,78 +289,10 @@
         </activity>
 
         <receiver
-            android:name="com.weilun.uniplugin_wxpay.receiver.ScanCodeBroadcastReceiver"
+            android:name="com.weilun.uniplugin_pay.receiver.ScanCodeBroadcastReceiver"
             android:enabled="true"
             android:exported="true" >
-            <intent-filter>
-                <action android:name="action_pay_bre" />
-            </intent-filter>
-        </receiver> <!-- 填移动应用(App)的 AppId -->
-        <meta-data
-            android:name="wxsdk_appid"
-            android:value="wxd2b6b1c1530ba9fa" /> <!-- 支付平台小程序原始ID -->
-        <meta-data
-            android:name="original_mpid"
-            android:value="gh_e64a1a89a0ad" /> <!-- 商户id -->
-        <meta-data
-            android:name="syb_cusid"
-            android:value="5503610753808MA" /> <!-- appid 前面拼接一个a字符，防止出现纯数字解析出错 -->
-        <meta-data
-            android:name="syb_appid"
-            android:value="a00014950" /> <!-- 交易密钥 -->
-        <meta-data
-            android:name="syb_rsa"
-            android:value="lw688688" /> <!-- 回调地址 -->
-        <meta-data
-            android:name="call_back_url"
-            android:value="http://www.hffjlt.com/fj/m/NotifyServlet" /> <!-- 支付宝appid 前面拼接一个a字符，防止出现纯数字解析出错 -->
-        <meta-data
-            android:name="ali_appid"
-            android:value="a2021001104615521" />
-
-        <uses-library
-            android:name="org.apache.http.legacy"
-            android:required="false" />
-
-        <activity
-            android:name="com.alipay.sdk.app.H5PayActivity"
-            android:configChanges="orientation|keyboardHidden|navigation|screenSize|locale|keyboard|screenLayout|density|fontScale|layoutDirection|smallestScreenSize"
-            android:exported="false"
-            android:theme="@android:style/Theme.NoTitleBar" >
-        </activity>
-        <activity
-            android:name="com.alipay.sdk.app.H5AuthActivity"
-            android:configChanges="orientation|keyboardHidden|navigation|screenSize|locale|keyboard|screenLayout|density|fontScale|layoutDirection|smallestScreenSize"
-            android:exported="false"
-            android:theme="@android:style/Theme.NoTitleBar" >
-        </activity>
-        <activity
-            android:name="com.alipay.sdk.app.PayResultActivity"
-            android:configChanges="orientation|keyboardHidden|navigation|screenSize|locale|keyboard|screenLayout|density|fontScale|layoutDirection|smallestScreenSize"
-            android:exported="true"
-            android:launchMode="singleInstance"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-        </activity>
-        <activity
-            android:name="com.alipay.sdk.app.AlipayResultActivity"
-            android:configChanges="orientation|keyboardHidden|navigation|screenSize|locale|keyboard|screenLayout|density|fontScale|layoutDirection|smallestScreenSize"
-            android:exported="true"
-            android:launchMode="singleTask"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-        </activity>
-        <activity
-            android:name="com.alipay.sdk.app.H5OpenAuthActivity"
-            android:configChanges="orientation|keyboardHidden|navigation|screenSize|locale|keyboard|screenLayout|density|fontScale|layoutDirection|smallestScreenSize"
-            android:exported="false"
-            android:screenOrientation="behind"
-            android:windowSoftInputMode="adjustResize|stateHidden" >
-        </activity>
-        <activity
-            android:name="com.alipay.sdk.app.APayEntranceActivity"
-            android:configChanges="orientation|keyboardHidden|navigation|screenSize|locale|keyboard|screenLayout|density|fontScale|layoutDirection|smallestScreenSize"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-        </activity>
+        </receiver>
     </application>
 
 </manifest>

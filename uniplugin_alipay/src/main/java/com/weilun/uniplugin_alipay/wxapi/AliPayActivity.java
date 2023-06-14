@@ -1,19 +1,17 @@
-package com.weilun.uniplugin_wxpay.wxapi;
+package com.weilun.uniplugin_alipay.wxapi;
 
 import android.app.Activity;
 import android.content.ComponentName;
 import android.content.Intent;
-import android.content.IntentFilter;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.weilun.uniplugin_wxpay.receiver.ScanCodeBroadcastReceiver;
-import com.weilun.uniplugin_wxpay.utils.Constant;
+import com.weilun.uniplugin_alipay.receiver.ScanCodeBroadcastReceiver;
+import com.weilun.uniplugin_alipay.utils.Constant;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
-import java.net.URLEncoder;
 import java.util.Set;
 
 /**

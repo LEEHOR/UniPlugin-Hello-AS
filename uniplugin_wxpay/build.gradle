@@ -1,23 +1,26 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 29
-    buildToolsVersion '29.0.2'
+    compileSdkVersion 30
+    buildToolsVersion '30.0.3'
 
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
-        manifestPlaceholders = [
-                "wxappid"     : "wxd2b6b1c1530ba9fa",
-                "originalmpid": "gh_e64a1a89a0ad",
-                "sybcusid"    : "5503610753808MA",
-                "sybappid"    : "a00014950",
-                "sybrsa"      : "lw688688",
-                "aliappid"    : "a2021001104615521",
-                "callbackurl" : "http://www.hffjlt.com/fj/m/NotifyServlet"
-        ]
+//        manifestPlaceholders = [
+//                "wxappid"     : "wxd2b6b1c1530ba9fa",
+//                "originalmpid": "gh_e64a1a89a0ad",
+////                "sybcusid"    : "5503610753808MA",
+////                "sybappid"    : "a00014950",
+////                "sybrsa"      : "lw688688",
+//                "sybcusid"    : "56236105532X6MU",
+//                "sybappid"    : "a00274167",
+//                "sybrsa"      : "fj123456789",
+//                "aliappid"    : "a2021001104615521",
+//                "callbackurl" : "http://www.hffjlt.com/fj/m/NotifyServlet"
+//        ]
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -54,7 +57,6 @@ dependencies {
     compileOnly fileTree(dir: '../app/libs', include: ['uniapp-v8-release.aar'])
     // 微信sdk
     api 'com.tencent.mm.opensdk:wechat-sdk-android:+'
-    api 'com.alipay.sdk:alipaysdk-android:+@aar'
+//    api 'com.alipay.sdk:alipaysdk-android:+@aar'
     implementation 'com.alibaba:fastjson:1.2.83'
-
 }

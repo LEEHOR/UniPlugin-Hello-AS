@@ -16,41 +16,9 @@
             android:name="${applicationId}.wxapi.WXEntryActivity"
             android:exported="true"
             android:targetActivity="com.weilun.uniplugin_wxpay.wxapi.WXEntryActivity" />
-        <activity
-            android:name="com.weilun.uniplugin_wxpay.wxapi.AliPayActivity"
-            android:label="@string/app_name"
-            android:theme="@android:style/Theme.Light.NoTitleBar"
-            android:exported="true"
-            android:launchMode="singleTask">
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-                <category android:name="android.intent.category.BROWSABLE"/>
-                <data android:scheme="leehorallinpaysdk"
-                    android:host="sdk"
-                    android:path="/backfromalipay"/>
-            </intent-filter>
-        </activity>
         <receiver android:name="com.weilun.uniplugin_wxpay.receiver.ScanCodeBroadcastReceiver"
             android:enabled="true"
             android:exported="true">
         </receiver>
-<!--        <intent-filter>-->
-<!--            <action android:name="action_pay_bre"/>-->
-<!--        </intent-filter>-->
-        <!--填移动应用(App)的 AppId-->
-        <meta-data android:name="wxsdk_appid" android:value="${wxappid}"/>
-        <!--支付平台小程序原始ID-->
-        <meta-data android:name="original_mpid" android:value="${originalmpid}"/>
-        <!--商户id-->
-        <meta-data android:name="syb_cusid" android:value="${sybcusid}"/>
-        <!--appid 前面拼接一个a字符，防止出现纯数字解析出错-->
-        <meta-data android:name="syb_appid" android:value="${sybappid}"/>
-        <!--交易密钥-->
-        <meta-data android:name="syb_rsa" android:value="${sybrsa}"/>
-        <!--回调地址-->
-        <meta-data android:name="call_back_url" android:value="${callbackurl}"/>
-        <!--支付宝appid 前面拼接一个a字符，防止出现纯数字解析出错-->
-        <meta-data android:name="ali_appid" android:value="${aliappid}"/>
     </application>
 </manifest>

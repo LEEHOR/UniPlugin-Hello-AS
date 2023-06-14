@@ -72,6 +72,23 @@
         <meta-data
             android:name="dcloud_appkey"
             android:value="${dcloudAppkey}" />
+        <!--填移动应用(App)的 AppId-->
+        <meta-data android:name="wxsdk_appid" android:value="${wxappid}"/>
+        <!--支付平台小程序原始ID-->
+        <meta-data android:name="original_mpid" android:value="${originalmpid}"/>
+        <!--商户id-->
+        <meta-data android:name="syb_cusid" android:value="${sybcusid}"/>
+        <!--appid 前面拼接一个a字符，防止出现纯数字解析出错-->
+        <meta-data android:name="syb_appid" android:value="${sybappid}"/>
+        <!--交易密钥-->
+        <meta-data android:name="syb_rsa" android:value="${sybrsa}"/>
+        <!--回调地址-->
+        <meta-data android:name="call_back_url" android:value="${callbackurl}"/>
+        <!--支付宝appid 前面拼接一个a字符，防止出现纯数字解析出错-->
+        <meta-data android:name="ali_appid" android:value="${aliappid}"/>
+        <!--高德地图apikey-->
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="${amapApikey}">
+        </meta-data>
     </application>
 
 </manifest>
