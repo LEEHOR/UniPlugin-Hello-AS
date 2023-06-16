@@ -10,7 +10,6 @@ import android.util.Log;
 import com.alibaba.fastjson.JSONObject;
 import com.taobao.weex.annotation.JSMethod;
 import com.taobao.weex.bridge.JSCallback;
-import com.weilun.uniplugin_pay.listen.PayListener;
 import com.weilun.uniplugin_pay.receiver.AliPayBroadcastReceiver;
 import com.weilun.uniplugin_pay.utils.Constant;
 import com.weilun.uniplugin_pay.utils.SybUtil;
@@ -18,8 +17,6 @@ import com.weilun.uniplugin_pay.utils.SybUtil;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 import java.text.ParseException;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.TreeMap;
 
 import io.dcloud.feature.uniapp.common.UniModule;
@@ -115,7 +112,9 @@ public class AliPayModule extends UniModule{
             }
             //订单备注信息
             if (remark != null) {
-                params.put("remark", remark);
+                params.put("remark", "支付宝付款"+remark);
+            } else {
+                params.put("remark", "支付宝付款");
             }
 
             //订单有效时间

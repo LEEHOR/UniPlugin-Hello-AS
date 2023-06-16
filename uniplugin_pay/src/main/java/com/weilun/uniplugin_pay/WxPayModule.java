@@ -11,14 +11,11 @@ import com.taobao.weex.bridge.JSCallback;
 import com.tencent.mm.opensdk.modelbiz.WXLaunchMiniProgram;
 import com.tencent.mm.opensdk.openapi.IWXAPI;
 import com.tencent.mm.opensdk.openapi.WXAPIFactory;
-import com.weilun.uniplugin_pay.listen.PayListener;
 import com.weilun.uniplugin_pay.receiver.WxPayBroadcastReceiver;
 import com.weilun.uniplugin_pay.utils.Constant;
 import com.weilun.uniplugin_pay.utils.SybUtil;
 
 import java.text.ParseException;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.TreeMap;
 
 import io.dcloud.feature.uniapp.common.UniModule;
@@ -100,7 +97,7 @@ public class WxPayModule extends UniModule {
             //订单标题
             params.put("body", body);
             //订单备注信息
-            params.put("remark", remark);
+            params.put("remark", "微信付款"+remark);
             //订单有效时间
             params.put("validtime", "5");
             params.put("limit_pay", "no_credit");

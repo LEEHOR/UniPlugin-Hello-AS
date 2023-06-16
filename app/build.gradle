@@ -23,7 +23,7 @@ android {
                 "sybappid"    : "a00274167",
                 "sybrsa"      : "fj123456789",
                 "aliappid"    : "a2021001104615521",
-                "callbackurl" : "http://www.hffjlt.com/fj/m/NotifyServlet"
+                "callbackurl" : "http://fj.jiujiuren.com/fengjiang/m/NotifyServlet"
         ]
         ndk {
             abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86'
